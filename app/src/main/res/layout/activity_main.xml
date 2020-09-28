@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_page"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/image_youtube"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/playstore_app"
+                android:scaleType="centerCrop"/>
+            <TextView
+                android:id="@+id/text_numbers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Numbers"
+                android:textSize="40sp"
+                android:padding="20dp"
+                android:layout_below="@id/image_youtube"
+                android:textColor="@android:color/white"
+                android:background="@android:color/holo_blue_dark"
+                />
+            <TextView
+                android:id="@+id/text_relations"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Relations"
+                android:textSize="40sp"
+                android:layout_below="@id/text_numbers"
+                android:padding="20dp"
+                android:textColor="@android:color/white"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:id="@+id/text_colors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Colors"
+                android:textSize="40sp"
+                android:textColor="@android:color/white"
+                android:background="@android:color/holo_orange_dark"
+                android:padding="20dp"
+                android:layout_below="@id/text_relations"/>
+            <TextView
+                android:id="@+id/text_phrases"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phrases"
+                android:textSize="40sp"
+                android:textColor="@android:color/white"
+                android:background="@android:color/holo_green_dark"
+                android:padding="20dp"
+                android:layout_below="@id/text_colors"/>
+
+            <TextView
+                android:id="@+id/text_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Youtube@GraspWithKasyap"
+                android:textSize="20sp"
+                android:padding="20dp"
+                android:textColor="@android:color/black"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/text_phrases"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

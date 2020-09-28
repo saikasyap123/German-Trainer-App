@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">German Trainer</string>
+    <string name="numbers">Numbers</string>
+    <string name="relations">Relations</string>
+    <string name="colors">Colors</string>
+    <string name="phrases">Phrases</string>
+</resources>
